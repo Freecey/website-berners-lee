@@ -37,15 +37,12 @@ i {
     font-size: 3em;
 }
 
-a {
-    color: inherit; 
+.leesocial a {color:#7d7d7d;
     text-decoration: none;
-}
-
-a {color:#7d7d7d;}         /* Unvisited link  */
-a:visited {color:#7d7d7d;} /* Visited link    */
-a:hover {color:#7d7d7d;}   /* Mouse over link */
-a:active {color:#7d7d7d;}  /* Selected link   */
+}         /* Unvisited link  */
+.leesocial a:visited {color:#7d7d7d;} /* Visited link    */
+.leesocial a:hover {color:#666666;}   /* Mouse over link */
+.leesocial a:active {color:#7d7d7d;}  /* Selected link   */
 
 
 .redcolorbg {
@@ -99,9 +96,6 @@ p {
 
 .leesocial {
     text-align: center;
-}
-.leemovie {
-    
 }
 
 .leemovie p {
@@ -163,4 +157,23 @@ p {
 .mov3rez {
     grid-column: 2;
     grid-row: 3;
+}
+
+
+.leesocial ul li { 
+    /* make list elements fall inline as block elements */
+    position: relative;
+    display: inline-block;
+    /* next two lines only for display purposes */
+    text-align: center;
+    border:0px;
+    width: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* horizontally center ul element */
+.leesocial ul { text-align:center; }
+
+.leesocial i {
+    font-size: 2.8em;
 }
