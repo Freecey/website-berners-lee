@@ -1,5 +1,7 @@
 # website-berners-lee
 
-on Tim Berners-Lee
+Clone page from a screenshot 
+
+## Tim Berners-Lee Website:
 
 https://freecey.github.io/website-berners-lee/
