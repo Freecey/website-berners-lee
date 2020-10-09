@@ -1,0 +1,96 @@
+/* Created by CEDRIC AUDRIT - cedric@audrit.be */
+/* LOAD and Set External fonts */
+@font-face {
+    font-family: "OpenSans";
+    src: url(fonts/OpenSans-Regular.ttf) format("truetype");
+    src: url(fonts/OpenSans-Bold.ttf) format("truetype");
+  }
+
+h1 {
+    color: #dd5555;
+}
+
+.redcolorbg {
+    background-color: #dd5555;
+    font-weight: bold;
+}
+
+
+body { 
+    font-family: "OpenSans", sans-serif;
+    background-color: #ebebeb;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.leepic {
+    border-radius: 50%;
+    border: 5px solid  #ebebeb ;
+}
+/*
+.griddesign {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 20px; 
+align-items: center;
+}
+
+.leepres {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.leesocial {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.leemovie {
+    grid-column: 2;
+    grid-template-rows: 3;
+}
+
+*/
+.cadre01 {
+    margin:0 auto; 
+    margin-top: 50px;
+    width:500px;
+    padding:25px;
+    border:0px solid rgb(0, 0, 0);
+    background-color: #FFFFFF;
+    display: flow-root;
+    vertical-align: middle;
+    box-shadow: 2px 2px #e1e1e1;
+    border-radius: 1%;
+    }
+
+.leepres {
+    text-align: center;
+}
+
+.leesocial {
+    text-align: center;
+}
+.leemovie {
+    
+}
+
+.leemovie p {
+    display:inline-block;
+    vertical-align:middle;
+    justify-content: center;
+}
+
+.leemovie img {
+    float:left;
+    width: 100px;
+    height: auto;
+}
+
+
+
