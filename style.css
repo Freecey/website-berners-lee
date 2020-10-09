@@ -12,8 +12,9 @@
 
 h1 {
     color: #dd5555;
-    font-weight: 125%;
+    font-weight: bold;
     font-family: "OpenSans-Bold";
+    font-size: xx-large;
 }
 
 b {
@@ -63,6 +64,7 @@ p {
 .leepic {
     border-radius: 50%;
     border: 5px solid  #ebebeb ;
+    height: 175px;
 }
 
 .cadre01 {
@@ -79,6 +81,7 @@ p {
     }
 
 .button {
+    font-family: "OpenSans-Bold";
     background-color: #dd5555; 
     border: none;
     color: white;
